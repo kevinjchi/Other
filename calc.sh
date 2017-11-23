@@ -1,6 +1,8 @@
 #!/bin/bash
 
-#Creating a Calculator in Bash script
+#Creating a Calculator using Bash script to do simple arithmetic
+#S to sum, P to take the product, M to do max, m to do min.
+#Supply with arguments in the command-line
 
 if (( $# ==0 )); then
 	echo "Supply with arguments 'S':sum, 'P':product, 'M':max or 'm':min."
