@@ -1,8 +1,8 @@
 Files in the Folder
 # Certain tasks
- *bookmark.sh*
+ *bookmark.sh*,
  *calc.sh*
  
 # HyperlinksAndEmails
- *scraper.py*
+ *scraper.py*,
  *recursive_search_emails.py*
