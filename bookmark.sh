@@ -37,7 +37,7 @@ elif [ $# -gt 2 ]; then
 fi
 
 if [ -f $bookmarkFile ]; then
-	declare -a array
+	declare -a array #declare arrays
 	readarray -t array < $bookmarkFile
 	for i in ${array[@]}; do
 		bookmarknumber=$i
