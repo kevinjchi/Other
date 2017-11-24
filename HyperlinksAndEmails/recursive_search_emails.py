@@ -43,4 +43,4 @@ if __name__ == "__main__":
             address_list.write(address + "\n")
     print("\nNumer of email addresses found: {}.".format(len(email_addresses)))
     print(email_addresses)
-    print("The addresses are found in addresses.txt")
+    print("The addresses are written to addresses.txt")
